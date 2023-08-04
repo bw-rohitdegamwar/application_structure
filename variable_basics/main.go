@@ -33,4 +33,15 @@ func main() {
 	var a, b, c int
 	fmt.Println(a, b, c)
 
+	var i, j = 5, 8
+
+	j, i = i, j // swapping variables
+
+	var sum float64 = 60.9999999999
+	sum = sum + 5 + 2.5
+
+	fmt.Println(sum)
+
+	fmt.Println(i, j)
+
 }
