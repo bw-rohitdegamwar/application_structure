@@ -28,4 +28,8 @@ func main() {
 	const p = 6.7
 	const k float64 = 6.4
 
+	const x = 7
+	const y float64 = 3.1
+	fmt.Println(x * y)
+
 }
