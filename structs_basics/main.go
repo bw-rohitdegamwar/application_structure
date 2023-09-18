@@ -19,4 +19,32 @@ func main() {
 	bestBook := book{title: "animal farm", author: "george", year: 2023}
 
 	fmt.Println(myBook, bestBook)
+
+	lastBook := book{title: "anna karenia"}
+
+	fmt.Println(lastBook.title)
+
+	diana := struct {
+		firstName, lastName string
+		age                 int
+	}{
+		firstName: "rohit",
+		lastName:  "degamwar",
+		age:       48,
+	}
+
+	fmt.Println(diana)
+
+	type Book struct {
+		string
+		float32
+		bool
+	}
+
+	b1 := Book{"test", 10.2, false}
+
+	fmt.Println(b1)
+
+	//embedded structs
+
 }
