@@ -11,6 +11,7 @@ func f1() {
 
 func f2(a int, b int) {
 	fmt.Println("Sum : ", a+b)
+
 }
 
 func f3(a, b, c int, d, e float32, f string) {
